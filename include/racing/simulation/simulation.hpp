@@ -22,7 +22,7 @@ class Simulation {
 public:
     explicit Simulation(SimulationConfig config = {});
 
-    void reset(const CarState& initail_state = {});
+    void reset(const CarState& initial_state = {});
     void step(const ControlInput& input, double delta_time);
 
     [[nodiscard]] const CarState& state() const noexcept;
