@@ -30,7 +30,6 @@ public:
 private:
     SimulationConfig config_;
     CarState state_;
-
 };
 
 }
