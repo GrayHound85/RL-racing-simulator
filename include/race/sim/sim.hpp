@@ -1,6 +1,6 @@
 #pragma once
 
-#include "race/sim/car_state.hpp"
+#include "sim/car_state.hpp"
 
 namespace racing::simulation {
 
